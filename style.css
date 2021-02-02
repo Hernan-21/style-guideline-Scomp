@@ -1,0 +1,13 @@
+.color ul{
+    text-decoration: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.color ul li{
+    text-decoration: none;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+}
+
