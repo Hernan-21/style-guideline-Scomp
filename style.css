@@ -121,12 +121,17 @@
     text-align: center;
 }
 
+.iconos{
+    margin: 30px 0;
+}
+
 .iconos div img{
     width: 50px;
     height: 50px;
 }
 
 .tamanos{
+    margin: 30px 0;
     border: 1px solid;
 }
 .iconos .tamanos img:first-child{
