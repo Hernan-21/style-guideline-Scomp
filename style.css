@@ -1,14 +1,151 @@
+.tipografia{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    font-family: 'Barlow', sans-serif;
+}
+.tipografia .lit{
+    font-weight: 300;
+    border: 1px solid;
+}
+.tipografia .lit-it{
+    font-weight: 300;
+    font-style: italic;
+    border: 1px solid;
+}
+.tipografia .rg{
+    font-weight: 400;
+    border: 1px solid;
+}
+.tipografia .bl{
+    font-weight: 700;
+    border: 1px solid;
+}
 
-.color ul{
+
+.tipografia-color{
+    color: #fff;
+}
+.tipografia-color h1{
+    padding: 10px;
+   border: 1px solid;
+   width: 400px;
+   height: 30px;
+   background: #3fa3ef;
+}
+.tipografia-color h2{
+    padding: 10px;
+    border: 1px solid;
+    width: 400px;
+    height: 30px;
+    background: #f5af18;
+ }
+ .tipografia-color h3{
+    padding: 10px;
+    border: 1px solid;
+    width: 400px;
+    height: 30px;
+    background: #27ae61;
+ }
+ .tipografia-color h4{
+    padding: 10px;
+    border: 1px solid;
+    width: 400px;
+    height: 30px;
+    background: #00a99d;
+ }
+ .tipografia-color h5{
+    padding: 10px;
+    border: 1px solid;
+    width: 400px;
+    height: 30px;
+    background: #0071bc;
+ }
+ .tipografia-color h6{
+    padding: 10px;
+    border: 1px solid;
+    width: 400px;
+    height: 30px;
+    background: #ff4a51;
+ }
+
+/* .tipografia-paragraf div{
+     height: 100px;
+     display: flex;
+     align-items: center;
+ }*/
+
+ .botones button{
+     padding: 10px 15px;
+ }
+ .botones button:first-child{
+     background: #3fa3ef;
+     color: #fff;
+ }
+ .botones button:nth-child(2){
+    background: #ff4a51;
+    color: #fff;
+    border-radius: 5px;
+}
+.botones a{
+    text-decoration: none;
+    color: #000;
+    padding: 10px 15px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+.botones a:hover{
+    text-decoration: none;
+    background: #3fa3ef;
+    color: #fff;
+    padding: 10px 15px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+.botones input{
+    padding: 10px 15px;
+    background: #ff4a51;
+    color: #fff;
+}
+.color{
     text-decoration: none;
     display: flex;
     flex-wrap: wrap;
 }
 
-.color ul li{
+.color div{
     text-decoration: none;
     height: 100px;
     width: 100px;
     text-align: center;
+}
+
+.iconos div img{
+    width: 50px;
+    height: 50px;
+}
+
+.tamanos{
+    border: 1px solid;
+}
+.iconos .tamanos img:first-child{
+    width: 300px;
+    height: 300px;
+}
+
+.iconos .tamanos img:nth-child(2){
+    width: 280px;
+    height: 230px;
+}
+
+.iconos .tamanos img:nth-child(3){
+    width: 115px;
+    height: 115px;
+}
+
+.iconos .tamanos img:nth-child(5){
+    width: 40px;
+    height: 40px;
 }
 
