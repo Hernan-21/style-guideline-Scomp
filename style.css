@@ -6,10 +6,17 @@
     font-family: 'Barlow', sans-serif;
 }
 .tipografia .lit{
+    font-size: 14px;
+    font-weight: 300;
+    border: 1px solid;
+}
+.tipografia .lit-md{
+    font-size: 18px;
     font-weight: 300;
     border: 1px solid;
 }
 .tipografia .lit-it{
+    font-size: 16px;
     font-weight: 300;
     font-style: italic;
     border: 1px solid;
@@ -18,7 +25,48 @@
     font-weight: 400;
     border: 1px solid;
 }
-.tipografia .bl{
+.tipografia .rg-sm{
+    font-size: 16px;
+    font-weight: 400;
+    border: 1px solid;
+}
+.tipografia .rg-md{
+    font-size: 18px;
+    font-weight: 400;
+    border: 1px solid;
+}
+.tipografia .rg-md{
+    font-size: 18px;
+    font-weight: 500;
+    border: 1px solid;
+}
+.tipografia .rg-lg{
+    font-size: 20px;
+    font-weight: 400;
+    border: 1px solid;
+}
+.tipografia .rg{
+    font-size: 21px;
+    font-weight: 400;
+    border: 1px solid;
+}
+.tipografia .bl-sm{
+    font-size: 18px;
+    font-weight: 700;
+    border: 1px solid;
+}
+.tipografia .bl-md{
+    font-size: 24px;
+    font-weight: 700;
+    border: 1px solid;
+}
+.tipografia .bl-lg{
+    font-size: 28px;
+    font-weight: 700;
+    border: 1px solid;
+}
+.tipografia .bl-xl{
+    font-size: 34px;
     font-weight: 700;
     border: 1px solid;
 }
@@ -70,10 +118,14 @@
     background: #ff4a51;
  }
 
-/* .tipografia-paragraf div{
+/* .tipografia-paragraf {
      height: 100px;
      display: flex;
      align-items: center;
+ }
+ 
+ .tipografia-paragraf .first{
+     background: #;
  }*/
 
  .botones button{
