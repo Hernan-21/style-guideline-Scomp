@@ -35,13 +35,18 @@
     font-weight: 400;
     border: 1px solid;
 }
-.tipografia .rg-md{
+.tipografia .rg-md-bd{
     font-size: 18px;
     font-weight: 500;
     border: 1px solid;
 }
 .tipografia .rg-lg{
     font-size: 20px;
+    font-weight: 400;
+    border: 1px solid;
+}
+.tipografia .rg-xl{
+    font-size: 21px;
     font-weight: 400;
     border: 1px solid;
 }
